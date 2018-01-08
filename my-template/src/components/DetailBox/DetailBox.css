@@ -7,7 +7,16 @@
   text-align: center;
   padding-top: 50px;
   font-family: 'Montserrat'; }
-  .box.clicked {
+  .box.details {
+    background-color: #dda39f;
+    border: 1px solid #dda39f; }
+  .box.who {
+    background-color: #82dce3;
+    border: 1px solid #82dce3; }
+  .box.when {
+    background-color: #dda39f;
+    border: 1px solid #dda39f; }
+  .box.where {
     background-color: #dda39f;
     border: 1px solid #dda39f; }
 

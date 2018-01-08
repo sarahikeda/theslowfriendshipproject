@@ -7,7 +7,19 @@
   text-align: center;
   padding-top: 50px;
   font-family: 'Montserrat';
-  &.clicked {
+  &.details {
+    background-color: #dda39f;
+    border: 1px solid #dda39f;
+  }
+  &.who {
+    background-color: #82dce3;
+    border: 1px solid #82dce3;
+  }
+  &.when {
+    background-color: #dda39f;
+    border: 1px solid #dda39f;
+  }
+  &.where {
     background-color: #dda39f;
     border: 1px solid #dda39f;
   }

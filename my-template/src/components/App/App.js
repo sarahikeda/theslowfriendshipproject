@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Box from '../Box/Box';
+import DetailBox from '../DetailBox/DetailBox';
 
 class App extends Component {
   render() {
@@ -8,7 +8,10 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Panels</h1>
         </header>
-        <Box/>
+        <DetailBox title="Details" otherColor='details'/>
+        <DetailBox title="Who" otherColor='who'/>
+        <DetailBox title="When"/>
+        <DetailBox title="Where"/>
       </div>
     );
   }
