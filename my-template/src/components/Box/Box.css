@@ -1,14 +1,3 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url('https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet'); }
-
-.App-title {
-  font-size: 1.5em;
-  margin-bottom: 50px; }
-
-.App-intro {
-  font-size: large; }
-
 .box {
   height: 250px;
   border: 1px solid black;

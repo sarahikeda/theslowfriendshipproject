@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import Box from '../Box/Box';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Boilerplate</h1>
+          <h1 className="App-title">Panels</h1>
         </header>
-        <p className="App-intro">Intro</p>
+        <Box/>
       </div>
     );
   }
