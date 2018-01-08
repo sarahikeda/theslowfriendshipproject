@@ -9,8 +9,9 @@ class Box extends Component {
   }
 
   handleClick = () => {
+    let newClass = this.state.currentClass === 'box' ? 'box clicked' : 'box';
     this.setState({
-      currentClass: 'box clicked'
+      currentClass: newClass
     })
     console.log('hi')
   }
